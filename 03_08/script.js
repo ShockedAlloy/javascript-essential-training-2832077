@@ -1,25 +1,32 @@
 /**
- * Create a Backpack object.
+ * Create a car object.
  */
 
-const backpack = {
-  name: "Everyday Backpack",
-  volume: 30,
-  color: "grey",
-  pocketNum: 15,
-  strapLength: {
-    left: 26,
-    right: 26,
+const car = {
+  name: "Tech",
+  tires: 4,
+  color: "black",
+  make: "Tesla",
+  model: "Model Y",
+  newUsed: false,
+  bodyStyle: "sedan",
+  package: {
+    modelOne: {
+      name: "Model 3",
+    },
+    modelTwo: {
+      name: "Model Y",
+    },
   },
-  lidOpen: false,
-  toggleLid: function (lidStatus) {
-    this.lidOpen = lidStatus;
+  engineOn: false,
+  startEngine: function (engineStatus) {
+    this.engineOn = engineStatus;
   },
-  newStrapLength: function (lengthLeft, lengthRight) {
-    this.strapLength.left = lengthLeft;
-    this.strapLength.right = lengthRight;
+  newPackage: function (modelOne, modelTwo) {
+    this.package.modelOne = modelOne;
+    this.package.modelTwo = modelTwo;
   },
 };
 
-console.log("The backpack object:", backpack);
-console.log("The pocketNum value:", backpack.pocketNum);
+console.log("I was looking at a ", car);
+console.log("The package I would like is the ", car[modelOne]);
