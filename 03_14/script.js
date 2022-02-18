@@ -6,6 +6,7 @@
  */
 
 import Backpack from "./Backpack.js";
+import Book from "./Book.js";
 
 const everydayPack = new Backpack(
   "Everyday Backpack",
