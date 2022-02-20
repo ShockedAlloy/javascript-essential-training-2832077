@@ -29,9 +29,31 @@ const stateOfEmergency = new Book(
   39
 );
 
+const will = new Book(
+  "Will",
+  "Will Smith",
+  432,
+  "Hardcover",
+  "Rap & Hip-Hop Musician Biographies",
+  false,
+  50
+);
+
+const blackPrivilege = new Book(
+  "Black Privilege: Opportunity Comes to Those Who Create It",
+  "Charlamagne Tha God",
+  320,
+  "Hardcover",
+  "General Broadcasting (Books)",
+  false,
+  320
+);
+
+let names = book.name(names)
+
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
 console.log("Days since aquired:", everydayPack.backpackAge());
 
-console.log("I've read ", stateOfEmergency.name, " by ", author);
+console.log("I've read ", Book, " by ", names);
 console.log("I've read a total of ", stateOfEmergency[currentPage()]);
