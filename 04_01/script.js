@@ -21,13 +21,13 @@ const content = `
     <article>
       <h1>${everydayPack[name]}</h1>
       <ul>
-        <li>Volume:</li>
-        <li>Color:</li>
-        <li>Age:</li>
-        <li>Number of pockets:</li>
-        <li>Left strap length:</li>
-        <li>Right strap length:</li>
-        <li>Lid status:</li>
+        <li>Volume: ${everydayPack[volume]}</li>
+        <li>Color: ${everydayPack[color]}Color:</li>
+        <li>Age: ${everydayPack[age]}</li>
+        <li>Number of pockets: ${everydayPack[pocketNum]}</li>
+        <li>Left strap length: ${everydayPack[strapLengthL]}</li>
+        <li>Right strap length: ${everydayPack[strapLengthR]}</li>
+        <li>Lid status: ${everydayPack[lidOpen]}</li>
       </ul>
     </article>
   </main>
