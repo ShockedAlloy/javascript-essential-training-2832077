@@ -19,6 +19,7 @@ const everydayPack = new Backpack(
   "December 5, 2018 15:00:00 PST"
 );
 
+//Book properties name, author, totalPages, format, genre, bookOpen, pagesRead
 const stateOfEmergency = new Book(
   "State of Emergency",
   "Tamika D. Mallory",
