@@ -2,7 +2,7 @@ class Book {
   constructor(
     name,
     author,
-    numOfPages,
+    totalPages,
     format,
     genre,
     bookOpen,
@@ -10,7 +10,7 @@ class Book {
   ) {
     this.name = name;
     this.author = author;
-    this.numOfPages = numOfPages;
+    this.totalPages = totalPages;
     this.format = format;
     this.genre = genre;
     this.bookOpen = bookOpen;
